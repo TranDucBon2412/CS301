@@ -1,0 +1,9 @@
+package LEC9_inheritance.Example3;
+
+public class Dog extends Animal {
+
+    @Override
+    void makeSound() {
+        System.out.println("Dog barks");
+    }
+}
